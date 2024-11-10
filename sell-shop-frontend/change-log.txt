@@ -1,0 +1,8 @@
+Date:  10-12-2022
+
+Version: 2.1.1
+
+===================
+
+01. Updated Bootstrap framework to latest version
+02. Fixed countdown issue
