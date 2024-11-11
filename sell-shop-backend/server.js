@@ -16,7 +16,7 @@ connectDB();
 
 const app = express();
 
-mongoose.connect(process.env.MONGODB_URI)
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:')
     .then(() => console.log('Connect to MongoDB'))
     .catch((err) => console.log('Could not connect to MongoDB:',err));
     
