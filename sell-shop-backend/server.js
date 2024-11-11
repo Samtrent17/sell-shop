@@ -16,7 +16,7 @@ connectDB();
 
 const app = express();
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:')
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:5200/sell-shop-database')
     .then(() => console.log('Connect to MongoDB'))
     .catch((err) => console.log('Could not connect to MongoDB:',err));
     
